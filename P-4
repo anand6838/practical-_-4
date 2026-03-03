@@ -1,60 +1,77 @@
 <html>
-<title>My Timetable </title>
-<body bgcolor = "lightblue">
-<table border = "1"
+<head>
+<title>My Timetable</title>
+</head>
 
-<h1>Anand kumar</h1>
-<h2>CS25001 </h2>
+<body bgcolor="white">
 
-<tr>
-    <th>Day/Time </th>
-    <th> 7 to 8 </th>
-    <th> 8 to 9 </th>
-    <th> 9 to 10 </th>
-    <th> 10 to 12:30 </th>
+<h1 align="center">TIMETABLE</h1>
+
+<table border="1" cellpadding="10" cellspacing="5" align="center">
+
+<tr bgcolor="lightgrey">
+    <th rowspan="2">Day/Time</th>
+    <th colspan="4">Time Slots</th>
+</tr>
+
+<tr bgcolor="lightgrey">
+    <th>7 to 8</th>
+    <th>8 to 9</th>
+    <th>9 to 10</th>
+    <th>10 to 12:30</th>
 </tr>
 
 <tr>
-    <th>Monday</th>
-    <td>SMP </td>
-    <td>Chemistry </td>
-    <td rowspan = "6">Dinner </td>
-    <td>Social Media </tr>
-</tr>
- <tr>
-    <th>Tuesday </th>
-    <td>Chemistry </td>
-    <td>SMP </td>
-    <td>Gaming </td>
+    <th bgcolor="lightgreen">Monday</th>
+    <td bgcolor="lightcyan">SMP</td>
+    <td bgcolor="lightyellow">Chemistry</td>
+    <td rowspan="6" bgcolor="orange">Dinner</td>
+    <td bgcolor="lightyellow">Social Media</td>
 </tr>
 
 <tr>
-    <th>Wednesday </th>
-    <td>Electrical </td>
-    <td>CodeTantra </td>
-    <td>SMP </td>
+    <th bgcolor="lightgreen">Tuesday</th>
+    <td bgcolor="lightyellow">Chemistry</td>
+    <td bgcolor="lightcyan">SMP</td>
+    <td bgcolor="lightblue">Gaming</td>
 </tr>
 
 <tr>
-    <th>Thursday </th>
-    <td>SMP </td>
-    <td>Gaming </td>
-    <td>SMP</td>
-</tr>
-<tr>
-    <th>Friday </th>
-    <td>Chemistry </td>
-    <td>SMP </td>
-    <td>Soft skill </td>
+    <th bgcolor="lightgreen">Wednesday</th>
+    <td bgcolor="lightyellow">Electrical</td>
+    <td bgcolor="lightpink">CodeTantra</td>
+    <td bgcolor="lightcyan">SMP</td>
 </tr>
 
 <tr>
-    <th>Saturday </th>
-    <td>SMP </td>
-    <td>Chemistry </td>
-    <td>Gaming </td>
+    <th bgcolor="lightgreen">Thursday</th>
+    <td bgcolor="lightcyan">SMP</td>
+    <td bgcolor="lightblue">Gaming</td>
+    <td bgcolor="lightcyan">SMP</td>
+</tr>
+
+<tr>
+    <th bgcolor="lightgreen">Friday</th>
+    <td bgcolor="lightyellow">Chemistry</td>
+    <td bgcolor="lightcyan">SMP</td>
+    <td bgcolor="pink">Soft Skill</td>
+</tr>
+
+<tr>
+    <th bgcolor="lightgreen">Saturday</th>
+    <td bgcolor="lightcyan">SMP</td>
+    <td bgcolor="lightyellow">Chemistry</td>
+    <td bgcolor="lightblue">Gaming</td>
 </tr>
 
 </table>
+
+<br><br>
+
+<h4 align="right">
+Anand Kumar <br>
+CS25001
+</h4>
+
 </body>
-</html>                                                                                                                   
+</html>
